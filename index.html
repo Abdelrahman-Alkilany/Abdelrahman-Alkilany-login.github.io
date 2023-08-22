@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+
+</head>
+
+<body>
+    <div
+        class="logincontainer container-fluid d-flex align-items-center text-center justify-content-center mt-5 mt-md-0">
+        <div class="row col-12 col-md-6 mt-5 mt-md-0">
+            <div class="loginForm col-12 p-4 mt-5 mt-md-0">
+                <div class="loginImgDiv"><img src="assets/login2.jpg" alt="" class="loginImage">
+                </div>
+                <span class="fs-2 text-light ">Login Form</span>
+                <form class="signForm m-0 m-md-5" id="mainForm">
+                    <!--//////////////////////////////// Email Sign\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control emailSign" id="emailInput" name="emailSign" required
+                            placeholder="name@example.com" aria-describedby="emailHelp">
+                        <label for="emailSign">Email Or Username</label>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <!--//////////////////////////////// password Sign\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+                    <div class="form-floating">
+                        <input type="password" class="form-control passSign" name="passwordSign" id="PasswordInput"
+                            required minlength="6" maxlength="15" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <br>
+
+                    <button type="submit" id="submitSign"
+                        class="btn btn-lg btn-info btn-outline-dark w-100 border-0 mt-4">SIGN IN</button>
+                    <br> <br>
+                    <a id="dontHaveAccount" href="" class="link-light m fs-4">Forget Password?</a> <br>
+                    <a id="dontHaveAccount" href="" class="text-light m fs-4">Don't have account?</a>
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="assets/bootstrap.min.js"></script>
+</body>
+
+</html>
